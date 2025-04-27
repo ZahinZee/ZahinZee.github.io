@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: black;
+  scroll-behavior: smooth;
+  scroll-padding-top: 3em;
+}
+
+.App {
+  background-color: rgb(252, 252, 252);
+}
+
+.navLink {
+  color: black !important;
+  font-size: 1em !important;
+  border-radius: 0.6em;
+}
+
+.navLink:hover,
+.navLink.active {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgb(0, 0, 0);
+  color: white !important;
+  padding: 0.5em;
+}
+
